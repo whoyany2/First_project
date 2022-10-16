@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Work+Sans:wght@500;700&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+    background-color: #f5f5f5;
+}
+/* NAV */
+.nav{
+    margin: 50px 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    width: 190px;
+}
+.nav_menu_ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.nav_menu_ul li{
+    cursor: pointer;
+    margin: 0 28px;
+}
+.profil_margin{
+    margin: 0 22px;
+}
+
+/* header_main */
+
+.header_main{
+    flex-wrap: wrap;
+    margin-left: 160px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_h1{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 80px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+    margin-bottom: 50px;
+}
+.hero_h3{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    color: #6C6B6B;
+    margin-bottom: 50px;
+}
+.header_hero_img {
+
+    background-image: url(/img/shoes_header_hero_windows.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 800px;
+    width: 800px;
+    display: flex;
+}
+.header_hero_img img{
+
+    margin: 20% 0 0 0;
+    transform: rotate(-40.95deg);
+    width: 800px;
+    height: 470px;
+
+}
+.arrows_item{
+
+    font-size: 24px;
+    padding: 20px;
+    color: #c1c0c0;
+    border: 2px solid #C1C0C0;
+    border-radius: 50%;
+
+}
+
+@media screen and (max-width:1777px){
+
+    .header_hero_img{
+        width: 500px;
+        height: 500px;
+
+    }
+    .header_main{
+        padding-right: 50px;
+    }
+    .nav{
+        margin-bottom: 160px;
+    }
+    .header_hero_img img{
+
+        width: 400px;
+        height: 280px;
+
+    }
+    
+}
+
+.hero_main_tap{
+    margin-bottom: 70px;
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_btn{
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    width: 180px;
+    height: 46px;
+    background: #FF3C78;
+    border-radius: 4px;
+    border: none;
+}
+.hero_advantage{
+    width: 348px;
+    display: flex;
+    justify-content: space-between;
+}
+.hero_advantage_item{
+    width: 150px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+/* header_main */
+
+
+/* NAV */
+
+
+
+/* MAIN */
+
+
+
+main{
+    margin-bottom: 160px;
+}
+.hero_bg{
+    background-color: #FFFFFF;
+    margin-bottom: 140px;
+    padding-bottom: 100px;
+}
+.main_hero{
+    margin: 140px;
+    padding-top: 100px;
+
+}
+.main_hero_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.view_all_element{
+    display: flex;
+    align-items: center;
+}
+.shoes_carusel{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.shoes_carusel_item{
+
+    /* margin: 35px; */
+
+}
+.shoes_carusel_item{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+    width: 290px;
+
+}
+
+.price_carusel{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+
+}
+/* POSTER */
+.sport_poster{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 140px;
+}
+.sport_poster_football{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 720px;
+    height: 490px;
+    background-size: cover;
+    background-image: url(../img/poster_football.png);
+}
+.sport_poster_football_text{
+
+    margin: 80px 55px 105px 420px;
+
+}
+.poster_football_title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0A083A;
+
+}
+.poster_football_title__name{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+
+}
+.poster_football_title_about{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+
+}
+.poster_football_btn{
+    cursor: pointer;
+    width: 180px;
+    height: 46px;
+    background: #0A083A;
+    border-radius: 4px;
+    color: #FFFFFF;
+    border: none;
+
+}
+.sport_poster_volleyball{
+    width: 720px;
+    height: 490px;
+    background-size: cover;
+    background-image: url(../img/poster_volleyball.png);
+}
+.poster_volleyball_title{
+
+    color:  #02BE83;
+
+}
+.poster_volleyball_btn{
+
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    width: 180px;
+    height: 46px;     
+    background: #02BE83;
+    border-radius: 4px;
+
+}
+/* POSTER */
+
+
+/* BEST_SELLER */
+
+.best_seller{
+
+    margin-bottom: 160px;
+
+}
+.best_seller_text{
+
+    margin: 0 140px;
+    margin-bottom: 70px;
+}
+.main_hero_text_category{
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 56px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+
+}
+.women_men{ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 467px;
+    background-image: url(/img/women_man_shoes.png);
+    margin-right: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+
+@media screen and (max-width:1366px){
+
+    .women_men{
+
+        height: 355px;
+
+    }
+    
+}
+
+.shoes_women_men{
+
+    margin-left: 240px;
+
+}
+
+.women_men_btn{
+    width: 180px;
+    height: 46px;
+    color: #FFFFFF;
+    background: #315BFF;
+    border-radius: 4px;
+    border: none;
+
+}
+/* BEST_SELLER */
+
+
+
+
+
+
+/* WHY_OUR */
+
+.why_our{
+
+    margin: 0 140px;
+    display: flex;
+    justify-content: center;
+
+}
+.why_our_text{
+    
+    width: 462px;
+    height: 122px;
+    margin-left: 160px;
+
+}
+.why_our_text_h2{
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.04em;
+    color: #0A083A;
+
+}
+.why_our_text_p{
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 32px;
+    color: #6C6B6B;
+
+}
+.why_our_plus{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.why_our_plus_item{
+
+    display: flex;
+    align-items: center;
+
+}
+.why_our_plus_item img {
+
+    margin-right: 24px;
+
+}
+/* WHY_OUR */
+
+
+
+/* BRAND */
+
+/* .bg_brand{
+
+    width: 1440px;
+    height: 815px;
+    background-size: cover;
+    background-image: url(/img/bg_brand.svg);
+
+}
+.brand_collection{
+
+    width: 225px;
+    height: 200px;
+    background-size: cover;
+    background-image: url(/img/bg_item.svg);
+ 
+
+}
+.brand_collection_item img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+
+
+/* BRAND */
+
+
+
+/* MAIN */
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer{
+    padding-top: 120px;
+    height: 400px;
+    background-color: #FFFFFF;
+
+}
+a{
+    cursor: pointer;
+}
+.main_footer{
+    margin: 0 85px 60px 85px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.down_footer{
+    margin: 0 160px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.collumn{
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 65px;
+
+}
+.one img{
+
+    width: 48px;
+    height: 48px;
+
+}
+.line{
+    margin: 0 160px;
+    margin-bottom: 70px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+
+}
+
+
+/* FOOTER */
+
