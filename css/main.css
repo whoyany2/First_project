@@ -58,7 +58,7 @@ body{
 }
 .header_hero_img {
 
-    background-image: url(img/shoes_header_hero_windows.svg);
+    background-image: url(../img/shoes_header_hero_windows.svg);
     background-repeat: no-repeat;
     background-size: contain;
     height: 800px;
@@ -218,7 +218,7 @@ main{
     width: 720px;
     height: 490px;
     background-size: cover;
-    background-image: url(img/poster_football.png);
+    background-image: url(/img/poster_football.png);
 }
 .sport_poster_football_text{
 
