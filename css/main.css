@@ -218,7 +218,7 @@ main{
     width: 720px;
     height: 490px;
     background-size: cover;
-    background-image: url(/img/poster_football.png);
+    background-image: url(../img/poster_football.png);
 }
 .sport_poster_football_text{
 
@@ -314,7 +314,7 @@ main{
     background-size: contain;
     background-repeat: no-repeat;
     height: 467px;
-    background-image: url(/img/women_man_shoes.png);
+    background-image: url(../img/women_man_shoes.png);
     margin-right: 160px;
     display: flex;
     flex-wrap: wrap;
