@@ -177,11 +177,6 @@ main{
 }
 .shoes_carusel_item{
 
-    /* margin: 35px; */
-
-}
-.shoes_carusel_item{
-
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
@@ -501,4 +496,6 @@ a{
 
 
 /* FOOTER */
+
+/* /////////////////      MOBILE */
 
